@@ -146,10 +146,13 @@ xrdb ~/.Xresources
 2. Open the Terminal's settings by pressing `Ctrl + ,`.
 3. In the left pane of the settings window, click on `Open JSON file` at the bottom, which will open `settings.json`.
 4. Locate the `schemes` section. It should look something like this:
+
 ```json
 "schemes": [],
 ```
+
 5. Paste the color scheme from the downloaded file into the `settings.json`. It should look like this:
+
 ```json
  "schemes": [
 			{
@@ -177,7 +180,15 @@ xrdb ~/.Xresources
 			}
         ]
 ```
+
 6. Save the `settings.json`. The color theme will now be added to Windows Terminal.
 7. (optional) In the left pane of the settings window, click on `Color schemes`.
 8. (optional) Select `0x96f` and click on `Set as default`.
 9. (optional) Make sure the color scheme for the profiles you use is set to `0x96f`.
+
+## [Konsole](https://konsole.kde.org/)
+
+1. Download and move `konsole/0x96f.colorscheme` to `~/.local/share/konsole`.
+2. Open Konsole and go to Settings → Edit Current Profile → Appearance.
+3. Select `0x96f Terminal Theme` from the Color Schemes list.
+4. Restart Konsole if the theme does not appear in the list.
